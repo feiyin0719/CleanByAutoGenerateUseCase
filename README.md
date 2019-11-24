@@ -1,5 +1,5 @@
 # CleanByAutoGenerateUseCase
-熟悉clean架构的人应该清楚，clean架构需要编写大量的UseCase,并且每个UseCase代码几乎相同，这种工作是沉重繁琐的，本项目即为自动生成UseCase的apt工具，只需要几个注释即可帮你从繁琐的工作中解放出来
+熟悉clean架构的人应该清楚，clean架构需要编写大量的UseCase,并且每个UseCase代码几乎相同，这种工作是沉重繁琐的，本项目即为自动生成UseCase的apt工具，只需要几个注解结合apt自动生成代码，即可帮你从繁琐的工作中解放出来
 # 项目结构
 usecase  提供UseCase基类以及threadpool，后期将移除这个lib，将基类也使用apt工具自动生成
 usecaseannotaion 提供注解的lib
