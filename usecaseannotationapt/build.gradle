@@ -1,0 +1,15 @@
+apply plugin: 'java'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation project(":usecaseannotation")
+    implementation 'com.google.auto.service:auto-service:1.0-rc6'
+    implementation 'com.squareup:javapoet:1.11.1'
+}
+
+sourceCompatibility = "8"
+targetCompatibility = "8"
+//  解决build 错误：编码GBK的不可映射字符
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}

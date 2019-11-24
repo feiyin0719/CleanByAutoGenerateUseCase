@@ -1,0 +1,2 @@
+include ':app',':usecaseannotation', ':usecaseannotationapt', ':usecase'
+rootProject.name='CleanByAutoGenerateUseCase'
